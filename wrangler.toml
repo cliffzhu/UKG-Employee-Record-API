@@ -1,0 +1,21 @@
+name = "ukg-employee-lookup"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (these should be set as secrets in Cloudflare)
+# Use: wrangler secret put <SECRET_NAME>
+# 
+# Required secrets:
+# - UKG_CUSTOMER_API_KEY
+# - UKG_USER_API_KEY  
+# - UKG_USERNAME
+# - UKG_PASSWORD
+#
+# Required variables:
+[vars]
+UKG_BASE_URL = "https://service.ultipro.ca"
+
+# Optional: Custom domains
+# [routes]
+# pattern = "ukg-lookup.yourdomain.com/*"
+# zone_name = "yourdomain.com"
