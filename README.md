@@ -135,7 +135,7 @@ Then make requests to `http://localhost:8787`
 
 ## API Features
 
-- **Email Lookup**: Find employee last (most recent) record by email address
+- **Email Lookup**: Find employee last (most recent one in active status) record by email address
 - **CORS Support**: Can be called from web browsers
 - **Error Handling**: Comprehensive error responses
 - **Fast**: Serverless execution with global edge deployment
